@@ -1,0 +1,20 @@
+PODS:
+  - CircleProgressView (1.2.0)
+  - CPRingChart (0.1.1):
+    - CircleProgressView
+
+DEPENDENCIES:
+  - CPRingChart
+
+SPEC REPOS:
+  trunk:
+    - CircleProgressView
+    - CPRingChart
+
+SPEC CHECKSUMS:
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  CPRingChart: 7cab03db6e8f9bb626b027345d48229a2b76b808
+
+PODFILE CHECKSUM: ad1aa0c39fccd32e5e8d6eedfaab18b1aa0e4023
+
+COCOAPODS: 1.10.1

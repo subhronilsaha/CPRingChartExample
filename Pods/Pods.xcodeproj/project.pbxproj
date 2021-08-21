@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D30693BD80BE2569FF5C5D45CF5A95 /* CircleProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C10A3B239E7CDDBF96A136677E2B0A /* CircleProgressView-dummy.m */; };
+		09DB9A265B118C45A669AC14792EBED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242517785D799E238532484BEBF4D6C8 /* Foundation.framework */; };
+		4C140FB4236FB239B8912D5F6D38C9BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242517785D799E238532484BEBF4D6C8 /* Foundation.framework */; };
+		565734BAFF41EBC20DCD66EF9279BC6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D439C5D486DE49B8BDFF2F7A9E02B /* AppDelegate.swift */; };
+		5F81C6C297D5E17089825081444DA546 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D4C3F39EAF234DBE5D24CE955B860 /* CircleProgressView.swift */; };
+		8BE3197EA8E30D557CBBCCCEF1938A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE1AB2223BA7EC6123088DCE8F09CC /* ViewController.swift */; };
+		B5B606C20CAAE4FB6515EFDA111D323F /* Pods-CPRingChartExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFE8BD95507B3AB201FDE3650C2D767 /* Pods-CPRingChartExample-dummy.m */; };
+		B6BE4DF23C27FC55EEB65CFB60DF0543 /* CPRingChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8054CAC6D5ACBA90F5D05F841DAD6DDC /* CPRingChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5E08FC43A46738B3501810F955EE09 /* CPRingChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0874D37E25977C9236B88E9C9946EC92 /* CPRingChart-dummy.m */; };
+		CDF0BD354975D99DB01D739369D59D2A /* Pods-CPRingChartExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65196C9F97365A7013ED0DCD92E0F111 /* Pods-CPRingChartExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E18CCA2D1F096B49966F7977737274A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242517785D799E238532484BEBF4D6C8 /* Foundation.framework */; };
+		EBCB3673C447D43BCAA575C7E5040D55 /* CircleProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFFC5AE336981A7F40E3DA78E39E3E8 /* CircleProgressView.framework */; };
+		F1D794E568D214DD4C0405E790FBDE3B /* CPRingChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3D8F923B046D29CE2A5E6227B35A5C /* CPRingChart.swift */; };
+		FEEB6A42300E848CA79CBCB04F29AA18 /* CircleProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D107FD8B48FA9B7F459E3ABF8B9B283A /* CircleProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C7718392EAFAC069541DFDF60CDAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4949F2E81928B23F0DBD7CBD4C7FAD08;
+			remoteInfo = CircleProgressView;
+		};
+		46D860ECC5B44B38B69E5D9A00FBBA84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FFA2AB9BD6E1EBA9C706D1D990D955;
+			remoteInfo = CPRingChart;
+		};
+		D96EC4A7578802451E785319C3FDC39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4949F2E81928B23F0DBD7CBD4C7FAD08;
+			remoteInfo = CircleProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006DB3A2CD0A9C7AC6B993AD0529DCCA /* CircleProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressView.release.xcconfig; sourceTree = "<group>"; };
+		0874D37E25977C9236B88E9C9946EC92 /* CPRingChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPRingChart-dummy.m"; sourceTree = "<group>"; };
+		108B5898F05A136803A5213D5BB63C54 /* CircleProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleProgressView-Info.plist"; sourceTree = "<group>"; };
+		12401655411596A4CA0E8BD5D2CEDFC0 /* Pods-CPRingChartExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPRingChartExample.modulemap"; sourceTree = "<group>"; };
+		242517785D799E238532484BEBF4D6C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2490A6C76696561783E1960132A58017 /* Pods-CPRingChartExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPRingChartExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29EE0DD1C32FB9518D51EE82E1DE44FC /* Pods-CPRingChartExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRingChartExample-Info.plist"; sourceTree = "<group>"; };
+		3587864952E61AF7FE7752B58101B8DE /* Pods-CPRingChartExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRingChartExample.debug.xcconfig"; sourceTree = "<group>"; };
+		3A42672E828C8F8E27405CC012BED08C /* Pods_CPRingChartExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPRingChartExample.framework; path = "Pods-CPRingChartExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC9E4869B7729D6F942DFAA5BC05575 /* CircleProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleProgressView.modulemap; sourceTree = "<group>"; };
+		42DE1AB2223BA7EC6123088DCE8F09CC /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CircleProgressView/ViewController.swift; sourceTree = "<group>"; };
+		4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleProgressView.framework; path = CircleProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		640D439C5D486DE49B8BDFF2F7A9E02B /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CircleProgressView/AppDelegate.swift; sourceTree = "<group>"; };
+		65196C9F97365A7013ED0DCD92E0F111 /* Pods-CPRingChartExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRingChartExample-umbrella.h"; sourceTree = "<group>"; };
+		72D5CC3A732B917E0B3D4679E4EA33B7 /* CPRingChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CPRingChart.modulemap; sourceTree = "<group>"; };
+		732539E0E3EA436DCDF2601355808332 /* CPRingChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRingChart-prefix.pch"; sourceTree = "<group>"; };
+		75C10A3B239E7CDDBF96A136677E2B0A /* CircleProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressView-dummy.m"; sourceTree = "<group>"; };
+		7C3D8F923B046D29CE2A5E6227B35A5C /* CPRingChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CPRingChart.swift; path = Source/CPRingChart.swift; sourceTree = "<group>"; };
+		8054CAC6D5ACBA90F5D05F841DAD6DDC /* CPRingChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRingChart-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A586E29AE6481F21E70259969F340A7A /* Pods-CPRingChartExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRingChartExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACB994B1456913B3A0268BDA9138E70E /* CircleProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressView.debug.xcconfig; sourceTree = "<group>"; };
+		B569AA61323C4618B8CF5CE97E9E71FA /* Pods-CPRingChartExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRingChartExample-frameworks.sh"; sourceTree = "<group>"; };
+		B6A84F2A7B2D7F4AE04924B15453B6C4 /* Pods-CPRingChartExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRingChartExample.release.xcconfig"; sourceTree = "<group>"; };
+		D107FD8B48FA9B7F459E3ABF8B9B283A /* CircleProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-umbrella.h"; sourceTree = "<group>"; };
+		D45D4C3F39EAF234DBE5D24CE955B860 /* CircleProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleProgressView.swift; path = CircleProgressView/CircleProgressView.swift; sourceTree = "<group>"; };
+		DA14F6AFE27660C24EB0839ED3DA985F /* CPRingChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRingChart.debug.xcconfig; sourceTree = "<group>"; };
+		DBFE8BD95507B3AB201FDE3650C2D767 /* Pods-CPRingChartExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRingChartExample-dummy.m"; sourceTree = "<group>"; };
+		DDE6B61B08EC9B71FE8906982581F5D4 /* CPRingChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPRingChart.release.xcconfig; sourceTree = "<group>"; };
+		E3DECA80038A59475D88147C98048CBF /* CPRingChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPRingChart.framework; path = CPRingChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFFC5AE336981A7F40E3DA78E39E3E8 /* CircleProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED144F52CF85CF76814A5577ABA3507C /* CPRingChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPRingChart-Info.plist"; sourceTree = "<group>"; };
+		EF1A79D654FAF0AB4E98CB5C0C97B565 /* CircleProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E55C76FE60300A23499138A6E9B4C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DB9A265B118C45A669AC14792EBED4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838221FB3FB050359EB5C8C853099D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCB3673C447D43BCAA575C7E5040D55 /* CircleProgressView.framework in Frameworks */,
+				E18CCA2D1F096B49966F7977737274A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AB605AF8C3513EA2899EAABDFC8937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C140FB4236FB239B8912D5F6D38C9BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B943A7968F0410822DB2754773676A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView.framework */,
+				E3DECA80038A59475D88147C98048CBF /* CPRingChart.framework */,
+				3A42672E828C8F8E27405CC012BED08C /* Pods_CPRingChartExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F4D3ED4943A3C3DBF5E122A3D79F86 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5962C5E2E7A5A046C4DA1DA93486AC /* Pods-CPRingChartExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DC74AC6DF653F26691A2E679F8B40F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72D5CC3A732B917E0B3D4679E4EA33B7 /* CPRingChart.modulemap */,
+				0874D37E25977C9236B88E9C9946EC92 /* CPRingChart-dummy.m */,
+				ED144F52CF85CF76814A5577ABA3507C /* CPRingChart-Info.plist */,
+				732539E0E3EA436DCDF2601355808332 /* CPRingChart-prefix.pch */,
+				8054CAC6D5ACBA90F5D05F841DAD6DDC /* CPRingChart-umbrella.h */,
+				DA14F6AFE27660C24EB0839ED3DA985F /* CPRingChart.debug.xcconfig */,
+				DDE6B61B08EC9B71FE8906982581F5D4 /* CPRingChart.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CPRingChart";
+			sourceTree = "<group>";
+		};
+		9788F808655DC42FBAF02A5ACF02E4CB /* CPRingChart */ = {
+			isa = PBXGroup;
+			children = (
+				7C3D8F923B046D29CE2A5E6227B35A5C /* CPRingChart.swift */,
+				7DC74AC6DF653F26691A2E679F8B40F8 /* Support Files */,
+			);
+			name = CPRingChart;
+			path = CPRingChart;
+			sourceTree = "<group>";
+		};
+		9D4A4E4A5164942AF3D5DB60267D0F6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9E4869B7729D6F942DFAA5BC05575 /* CircleProgressView.modulemap */,
+				75C10A3B239E7CDDBF96A136677E2B0A /* CircleProgressView-dummy.m */,
+				108B5898F05A136803A5213D5BB63C54 /* CircleProgressView-Info.plist */,
+				EF1A79D654FAF0AB4E98CB5C0C97B565 /* CircleProgressView-prefix.pch */,
+				D107FD8B48FA9B7F459E3ABF8B9B283A /* CircleProgressView-umbrella.h */,
+				ACB994B1456913B3A0268BDA9138E70E /* CircleProgressView.debug.xcconfig */,
+				006DB3A2CD0A9C7AC6B993AD0529DCCA /* CircleProgressView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleProgressView";
+			sourceTree = "<group>";
+		};
+		C16E21455E21752D6843BD9B1BC3860F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5B48F1893AD4D97C7B62DC800182985 /* CircleProgressView */,
+				9788F808655DC42FBAF02A5ACF02E4CB /* CPRingChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5B48F1893AD4D97C7B62DC800182985 /* CircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				640D439C5D486DE49B8BDFF2F7A9E02B /* AppDelegate.swift */,
+				D45D4C3F39EAF234DBE5D24CE955B860 /* CircleProgressView.swift */,
+				42DE1AB2223BA7EC6123088DCE8F09CC /* ViewController.swift */,
+				9D4A4E4A5164942AF3D5DB60267D0F6F /* Support Files */,
+			);
+			name = CircleProgressView;
+			path = CircleProgressView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F56EBE618BAAA4341BC82591E836E3E3 /* Frameworks */,
+				C16E21455E21752D6843BD9B1BC3860F /* Pods */,
+				05B943A7968F0410822DB2754773676A /* Products */,
+				46F4D3ED4943A3C3DBF5E122A3D79F86 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FCC4DA6977C0764E2B3A4A6A909EB7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				242517785D799E238532484BEBF4D6C8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F56EBE618BAAA4341BC82591E836E3E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECFFC5AE336981A7F40E3DA78E39E3E8 /* CircleProgressView.framework */,
+				F1FCC4DA6977C0764E2B3A4A6A909EB7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD5962C5E2E7A5A046C4DA1DA93486AC /* Pods-CPRingChartExample */ = {
+			isa = PBXGroup;
+			children = (
+				12401655411596A4CA0E8BD5D2CEDFC0 /* Pods-CPRingChartExample.modulemap */,
+				2490A6C76696561783E1960132A58017 /* Pods-CPRingChartExample-acknowledgements.markdown */,
+				A586E29AE6481F21E70259969F340A7A /* Pods-CPRingChartExample-acknowledgements.plist */,
+				DBFE8BD95507B3AB201FDE3650C2D767 /* Pods-CPRingChartExample-dummy.m */,
+				B569AA61323C4618B8CF5CE97E9E71FA /* Pods-CPRingChartExample-frameworks.sh */,
+				29EE0DD1C32FB9518D51EE82E1DE44FC /* Pods-CPRingChartExample-Info.plist */,
+				65196C9F97365A7013ED0DCD92E0F111 /* Pods-CPRingChartExample-umbrella.h */,
+				3587864952E61AF7FE7752B58101B8DE /* Pods-CPRingChartExample.debug.xcconfig */,
+				B6A84F2A7B2D7F4AE04924B15453B6C4 /* Pods-CPRingChartExample.release.xcconfig */,
+			);
+			name = "Pods-CPRingChartExample";
+			path = "Target Support Files/Pods-CPRingChartExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AC22FD780BA8153D579D5E01BC8B111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF0BD354975D99DB01D739369D59D2A /* Pods-CPRingChartExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718DFFA7BB1B7BC78740D7E2B8144737 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEB6A42300E848CA79CBCB04F29AA18 /* CircleProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB6FA82EA65694F8EEBC362D4A4210E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BE4DF23C27FC55EEB65CFB60DF0543 /* CPRingChart-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		292DDBD8091F32CAE6B10FD45278B2CE /* Pods-CPRingChartExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73E586736DF778469E73BDC5335BA74 /* Build configuration list for PBXNativeTarget "Pods-CPRingChartExample" */;
+			buildPhases = (
+				0AC22FD780BA8153D579D5E01BC8B111 /* Headers */,
+				966D7617C7777475726F41188243B5BD /* Sources */,
+				0E55C76FE60300A23499138A6E9B4C38 /* Frameworks */,
+				2E858B430E1882B04618667711921B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9576412A84D185A33240E95A4180B61F /* PBXTargetDependency */,
+				77C29D5777BDBE38A4E6A9B9CF33A8B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CPRingChartExample";
+			productName = "Pods-CPRingChartExample";
+			productReference = 3A42672E828C8F8E27405CC012BED08C /* Pods_CPRingChartExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639BC72ED5E7C8E1876DB6EF18BCC42B /* Build configuration list for PBXNativeTarget "CircleProgressView" */;
+			buildPhases = (
+				718DFFA7BB1B7BC78740D7E2B8144737 /* Headers */,
+				1B7AE58E56DB3A86E5C629A30CD90031 /* Sources */,
+				B5AB605AF8C3513EA2899EAABDFC8937 /* Frameworks */,
+				11D92B5C31E35B5E46EBED75B57CF9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressView;
+			productName = CircleProgressView;
+			productReference = 4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5FFA2AB9BD6E1EBA9C706D1D990D955 /* CPRingChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F65ADD7C8A28263BD0F8733FDCC160E /* Build configuration list for PBXNativeTarget "CPRingChart" */;
+			buildPhases = (
+				ABB6FA82EA65694F8EEBC362D4A4210E /* Headers */,
+				4100CE59D42AD364C4980BCF4D9ABF30 /* Sources */,
+				838221FB3FB050359EB5C8C853099D09 /* Frameworks */,
+				ECC9A97C454F8FEC2A66F70E78E8326F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7735A917C88970AE7337068BF1FA83B4 /* PBXTargetDependency */,
+			);
+			name = CPRingChart;
+			productName = CPRingChart;
+			productReference = E3DECA80038A59475D88147C98048CBF /* CPRingChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 05B943A7968F0410822DB2754773676A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */,
+				C5FFA2AB9BD6E1EBA9C706D1D990D955 /* CPRingChart */,
+				292DDBD8091F32CAE6B10FD45278B2CE /* Pods-CPRingChartExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D92B5C31E35B5E46EBED75B57CF9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E858B430E1882B04618667711921B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC9A97C454F8FEC2A66F70E78E8326F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7AE58E56DB3A86E5C629A30CD90031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565734BAFF41EBC20DCD66EF9279BC6F /* AppDelegate.swift in Sources */,
+				03D30693BD80BE2569FF5C5D45CF5A95 /* CircleProgressView-dummy.m in Sources */,
+				5F81C6C297D5E17089825081444DA546 /* CircleProgressView.swift in Sources */,
+				8BE3197EA8E30D557CBBCCCEF1938A86 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4100CE59D42AD364C4980BCF4D9ABF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5E08FC43A46738B3501810F955EE09 /* CPRingChart-dummy.m in Sources */,
+				F1D794E568D214DD4C0405E790FBDE3B /* CPRingChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D7617C7777475726F41188243B5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B606C20CAAE4FB6515EFDA111D323F /* Pods-CPRingChartExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7735A917C88970AE7337068BF1FA83B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressView;
+			target = 4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */;
+			targetProxy = 01C7718392EAFAC069541DFDF60CDAFD /* PBXContainerItemProxy */;
+		};
+		77C29D5777BDBE38A4E6A9B9CF33A8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressView;
+			target = 4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */;
+			targetProxy = D96EC4A7578802451E785319C3FDC39B /* PBXContainerItemProxy */;
+		};
+		9576412A84D185A33240E95A4180B61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CPRingChart;
+			target = C5FFA2AB9BD6E1EBA9C706D1D990D955 /* CPRingChart */;
+			targetProxy = 46D860ECC5B44B38B69E5D9A00FBBA84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E87BFC28E08189B0D8BA3B3152FC755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 006DB3A2CD0A9C7AC6B993AD0529DCCA /* CircleProgressView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/CircleProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68BFB6560E5232EB418612443DA0ECA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE6B61B08EC9B71FE8906982581F5D4 /* CPRingChart.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPRingChart/CPRingChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPRingChart/CPRingChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CPRingChart/CPRingChart.modulemap";
+				PRODUCT_MODULE_NAME = CPRingChart;
+				PRODUCT_NAME = CPRingChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7240201383AA46E8E5B38D688C370497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB994B1456913B3A0268BDA9138E70E /* CircleProgressView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/CircleProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F55282C2920B310B15992C5E64E1442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A84F2A7B2D7F4AE04924B15453B6C4 /* Pods-CPRingChartExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPRingChartExample/Pods-CPRingChartExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPRingChartExample/Pods-CPRingChartExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		882939590D7FB5C0B22782FFFA72C8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA14F6AFE27660C24EB0839ED3DA985F /* CPRingChart.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPRingChart/CPRingChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPRingChart/CPRingChart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CPRingChart/CPRingChart.modulemap";
+				PRODUCT_MODULE_NAME = CPRingChart;
+				PRODUCT_NAME = CPRingChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E710C1F70DB407AE5B240755FDB39C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3587864952E61AF7FE7752B58101B8DE /* Pods-CPRingChartExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CPRingChartExample/Pods-CPRingChartExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPRingChartExample/Pods-CPRingChartExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F65ADD7C8A28263BD0F8733FDCC160E /* Build configuration list for PBXNativeTarget "CPRingChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882939590D7FB5C0B22782FFFA72C8D0 /* Debug */,
+				68BFB6560E5232EB418612443DA0ECA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639BC72ED5E7C8E1876DB6EF18BCC42B /* Build configuration list for PBXNativeTarget "CircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7240201383AA46E8E5B38D688C370497 /* Debug */,
+				5E87BFC28E08189B0D8BA3B3152FC755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73E586736DF778469E73BDC5335BA74 /* Build configuration list for PBXNativeTarget "Pods-CPRingChartExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E710C1F70DB407AE5B240755FDB39C2 /* Debug */,
+				7F55282C2920B310B15992C5E64E1442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
